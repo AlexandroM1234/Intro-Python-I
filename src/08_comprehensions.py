@@ -38,7 +38,7 @@ x = input("Enter comma-separated numbers: ").split(',')
 y = []
 for values in x:
     values=int(values)
-    if (values%2==0):
+    if (values % 2== 0):
         y.append(values)
     else:
         print("values cannot be odd")
