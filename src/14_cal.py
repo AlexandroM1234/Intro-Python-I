@@ -31,4 +31,6 @@ import sys
 import calendar
 from datetime import datetime
 
-print(calendar.month(sys,mm))
+# print(calendar.month(int(*sys.argv[1:])))
+print(*sys.argv[1:])
+print(type(*sys.argv[1]))
